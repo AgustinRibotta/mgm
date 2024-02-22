@@ -1,3 +1,15 @@
 ul {
     list-style-type: none;
 }
+/* padre */
+.nav-top{ 
+    display: flex;
+    margin: 10px;
+    padding: 30px;
+    background: tomato;
+    color: white;
+
+}
+.liNav{
+    display: inline-block;
+}
