@@ -4,11 +4,17 @@ body{
     background-color: #447294;
 }
 
+/* Header  */
+
 header {
     height: 80px;
     display: flex;
     align-items: center;
-    background: black;
+    background: #000;
+}
+
+header a img:hover {
+    transform: scale(1.1);
 }
 
 header nav {
@@ -24,8 +30,19 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #fff;
 }
+
+header nav ul li a:hover {
+    background-color: #447294;
+    padding: 0.5em;
+    border-radius: 3px;
+}
+
+header nav ul li a:visited {
+    background-color: #447294;
+}
+
 
 header ul {
     margin-right: 25px;
@@ -35,9 +52,46 @@ header ul li {
     list-style: none;
     display: inline;
     margin: 0 10px;
+    
 }
 
 header ul li a img {
     width: 20px;
     margin-left: 5px;
 }
+
+header ul li a img:hover {
+    transform: scale(1.1);
+}
+
+
+/* Fin Header  */
+
+/* Section Clients */
+
+.clients div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #447294;
+    margin: 2em 0;
+}
+
+.clients div img {
+    width: 100px;
+    height: auto;
+    margin: auto;
+    padding: 1.5em; 
+    border: 2px solid #aaa; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.clients div img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /
+}
+
+
+/* Fin Section Clients */
