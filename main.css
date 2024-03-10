@@ -1,15 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 ul {
     list-style-type: none;
-}
-/* padre */
-.nav-top{ 
-    display: flex;
-    margin: 10px;
-    padding: 30px;
-    background: tomato;
-    color: white;
 
 }
-.liNav{
-    display: inline-block;
+
+a {
+    text-decoration: none;
 }
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #447294;
+}
+
+.shadow {
+box-shadow: 0px 3px 3px rgb(56, 56, 56);
+}
+
+/* ------------------------------- 0 -------------------------------- */
+/* ------------------------------- 0 -------------------------------- */
+/* ------------------------------- 0 -------------------------------- */
+/* Carrusel */
+
+/* .carrousel {
+    width: 100%;
+
+}
+
+.conteCarrousel {
+    width: 100%;
+    height: 545px;
+    overflow: hidden;
+}
+
+.itemCarrousel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselTarjeta {
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselArrows {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.itemCarrouselArrows>i:hover {
+    cursor: pointer;
+}
+
+#itemCarrousel-1 {
+    background-color: rgb(226, 50, 50);
+}
+
+#itemCarrousel-2 {
+    background-color: rgb(50, 200, 226);
+}
+
+#itemCarrousel-3 {
+    background-color: rgb(200, 226, 50);
+}
+
+#itemCarrousel-4 {
+    background-color: rgb(188, 78, 162);
+}
+
+#itemCarrousel-5 {
+    background-color: rgb(199, 156, 38);
+}
+
+.conteCarrouselController {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController>a {
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+}
+
+.itemCarrouselArrows>a>i {
+    color: white;
+} */
+
+
+/* ------------------------------- 0 -------------------------------- */
+/* ------------------------------- 0 -------------------------------- */
+/* ------------------------------- 0 -------------------------------- */
+
+.services {
+    display: flex;
+    align-items: center;
+}
+.service {
+    flex: 1;
+    padding-bottom: 120px;
+}
+.service h2 {
+    text-align: center;
+    padding-bottom: 75px;
+}
+.service ul {
+    text-align: left;   
+}
+.service li{
+    display: inline-block;
+    width: 40%;
+    padding-left: 125px;
+    padding-bottom: 30px;
+
+}
+.service li img{
+vertical-align: middle;
+}
+.carrousel {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.carrousel img {
+}
+
+/* ------------------------------- 0 -------------------------------- */
+/* ------------------------------- 0 -------------------------------- */
+/* ------------------------------- 0 -------------------------------- */
+
+
+
+
+ p {
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.chisiamo  {
+    display: flex;
+    align-items: center;
+    padding: 20px 0 30px 0 ;
+}
+
+.chisiamoDiv1 {
+    flex: 1;
+    padding-left: 20px;
+}
+.chisiamoDiv1 img{
+    width: 95%;
+}
+
+.chisiamoDiv2 {
+    flex: 1 ;
+}
+
+.chisiamoDiv2 h2{
+    text-align: center;
+    
+
+}
+.chisiamoDiv2 p {
+    padding-top: 50px;
+    text-align: center;
+    max-width: 90%;
+    font-size: 24px;
+}
+h2 {
+    font-size: 32px;
+}
+
+
+/* ------------------------------- 0 -------------------------------- */
+/* ------------------------------- 0 -------------------------------- */
+/* ------------------------------- 0 -------------------------------- */
+
+/* padre */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+footer a img {
+    filter: blur(70%);
+    margin: 0px 40px;
+}
+
+footer p {
+    margin: 30px 0px 0px 0px;
+    padding: 5px;
+}
+
+

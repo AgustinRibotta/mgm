@@ -1,41 +1,57 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Archivo CSS -->
+
     <link rel="stylesheet" href="main.css">
+
+    <!-- tipografia  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- -------------------------------------------------------------------------------------- -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">s
+
     <title>MGM</title>
 </head>
+
 <body>
     <header>
-       <a href=""> <img src="/media/mgmChiquito.png" alt="mgm"></a>
-        <nav class = "nav-top">
+        <a href=""> <img src="/media/mgmChiquito.png" alt="mgm"></a>
+        <nav>
             <ul>
-                <li><a href="#"class = "liNav">inizio</a></li>
-                <li><a href="#"class = "liNav">servizi</a></li>
-                <li><a href="#"class = "liNav">noi</a></li>
+                <li><a href="">inizio</a></li>
+                <li><a href="">servizi</a></li>
+                <li><a href="">noi</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="services">
-            <header>
+        <section class="services shadow">
+            <div class="service">
                 <h2>
                     I nostri servizi
                 </h2>
                 <ul>
-                    <li>Impianti Elettrici e Tecnici.</li>
-                    <li>Allarmi e Videosorveglianza.</li>
-                    <li>Impianti Termo-Idraulici.</li>
-                    <li>Automazioni; sia civili che industriali.</li>
+                    <li><img src="/media/Icon/Vector 2.png" alt="">Impianti Elettrici e Tecnici.</li>
+                    <li> <img src="/media/Icon/Vector 2.png" alt="">Allarmi e Videosorveglianza.</li>
+                    <li><img src="/media/Icon/Vector 2.png" alt="">Impianti Termo-Idraulici.</li>
+                    <li><img src="/media/Icon/Vector 2.png" alt="">Automazioni; sia civili che industriali.</li>
                 </ul>
-            </header>
-            <div>
-                <img src="/media/Slide Item — 4.png" alt="4">
-                <img src="/media/Slide Item — 5.png" alt="5">
-                <img src="/media/Slide Item — 1.png" alt="1">
-                <img src="/media/Slide Item — 2.png" alt="2">
-                <img src="/media/Slide Item — 3.png" alt="3">
+            </div>
+            <div class="carrousel">
+                <img src="/media/Slide Item — 3.png" alt="">
             </div>
         </section>
         <section class="clients">
@@ -45,20 +61,22 @@
                 <img src="" alt="">
                 <img src="" alt="">
             </div>
-        </section>       
-        <section class="us">
-            <div>
-                <img src="" alt="">
+        </section>
+        <section class="chisiamo shadow">
+            <div class="chisiamoDiv1 ">
+                <img src="/media/chisiamo.png" alt="chisiamo">
             </div>
-            <div>
+            <div class="chisiamoDiv2 ">
                 <h2>Chi siamo</h2>
                 <p>
-                    Quisque id justo id sem aliquet luctus. Suspendisse potenti. Proin nec accumsan libero. Fusce id ultricies orci. Vivamus laoreet, justo at ultrices gravida, velit turpis rhoncus metus, nec facilisis dolor orci vitae sapien. Nunc dignissim, metus eu a
-                    </p>
+                    Quisque id justo id sem aliquet luctus. Suspendisse potenti. Proin nec accumsan libero. Fusce id
+                    ultricies orci. Vivamus laoreet, justo at ultrices gravida, velit turpis rhoncus metus, nec
+                    facilisis dolor orci vitae sapien. Nunc dignissim, metus eu a
+                </p>
             </div>
-            
+
         </section>
-        <section class ="contact">
+        <section class="contact">
             <div>
                 <div>
                     <img src="" alt="mgm">
@@ -76,12 +94,111 @@
         </section>
     </main>
     <footer>
-        <ul>
-            <li><a href=""><img src="/media/facebook.png" alt="Facebook"></a></li>
-            <li><a href=""><img src="/media/twitter(1).png" alt="Twitter"></a></a></li>
-            <li><a href=""><img src="/media/instagram (1).png" alt="Instagram"></a></a></li>
-        </ul>
+        <a target="_blank" href="#"><img src="/media/facebook.png" alt="Facebook"></a>
+        <a target="_blank" href="#"><img src="/media/twitter(1).png" alt="Twitter"></a></a>
+        <a target="_blank" href="#"><img src="/media/instagram (1).png" alt="Instagram"></a>
         <p>Tutti i diritti riservati</p>
     </footer>
 </body>
+
 </html>
+
+
+<!--
+<div class="carrousel">
+
+    <div class="carrousels23">
+        <div class="conteCarrousel">
+            <div class="itemCarrousel" id="itemCarrousel-1">
+                <div class="itemCarrouselTarjeta">
+
+                    <img src="/media/Slide Item — 1.png" alt="">
+
+                </div>
+                <div class="itemCarrouselArrows">
+                    <a href="#itemCarrousel-3">
+                        <i class="fas fa-chevron-left"></i>
+                    </a>
+                    <a href="#itemCarrousel-2">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- ------------------------------------------------------------------------------------------------ -
+            <div class="itemCarrousel" id="itemCarrousel-4">
+                <div class="itemCarrouselTarjeta">
+
+                    <img src="/media/Slide Item — 4.png" alt="">
+
+                </div>
+                <div class="itemCarrouselArrows">
+                    <a href="#itemCarrousel-3">
+                        <i class="fas fa-chevron-left"></i>
+                    </a>
+                    <a href="#itemCarrousel-2">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- ------------------------------------------------------------------------------------------------ -
+            <div class="itemCarrousel" id="itemCarrousel-5">
+                <div class="itemCarrouselTarjeta">
+
+                    <img src="/media/Slide Item — 5.png" alt="">
+
+                </div>
+                <div class="itemCarrouselArrows">
+                    <a href="#itemCarrousel-3">
+                        <i class="fas fa-chevron-left"></i>
+                    </a>
+                    <a href="#itemCarrousel-2">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- ------------------------------------------------------------------------------------------------ -->
+<!-- car2 -->
+<!-- -------------------------------------------------------------------------------------------- 
+            <div class="itemCarrousel" id="itemCarrousel-2">
+                <div class="itemCarrouselTarjeta">
+
+
+                    <img src="/media/Slide Item — 2.png" alt="">
+
+                </div>
+                <div class="itemCarrouselArrows">
+                    <a href="#itemCarrousel-1">
+                        <i class="fas fa-chevron-left"></i>
+                    </a>
+                    <a href="#itemCarrousel-3">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- ------------------------------------------------------------------------------------------------- -->
+<!-- car3 -->
+<!-- ------------------------------------------------------------------------------------------------ 
+            <div class="itemCarrousel" id="itemCarrousel-3">
+                <div class="itemCarrouselTarjeta">
+
+                    <img src="/media/Slide Item — 3.png" alt="">
+
+                </div>
+                <div class="itemCarrouselArrows">
+                    <a href="#itemCarrousel-2">
+                        <i class="fas fa-chevron-left"></i>
+                    </a>
+                    <a href="#itemCarrousel-1">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="conteCarrouselController">
+            <a href="#itemCarrousel-1">•</a>
+            <a href="#itemCarrousel-4">x</a>
+            <a href="#itemCarrousel-2">•</a>
+            <a href="#itemCarrousel-5">x</a>
+            <a href="#itemCarrousel-3">•</a>
+        </div>
+    -->
