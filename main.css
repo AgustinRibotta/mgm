@@ -106,16 +106,16 @@ header ul li a img:hover {
     width: 100%;
 }
 
-.contact address ul {
+.contact .contatto ul {
     flex: 1;
 }
 
-.contact address h2 {
+.contact .contatto h2 {
     text-align: center;
     margin-bottom: 30px;
 }
 
-.contact address ul li {
+.contact .contatto ul li {
     display: inline-block;
     width: 45%;
     box-sizing: border-box;
@@ -124,7 +124,7 @@ header ul li a img:hover {
     margin-left: 10px;
 }
 
-.contact address ul li a {
+.contact .contatto ul li a {
     display: flex;
     align-items: center;
     text-align: left;
@@ -132,10 +132,10 @@ header ul li a img:hover {
     color: #000;   
 }
 
-.contact address ul li a img{
+.contact .contatto ul li a img{
     padding-right: 10px;
 }
 
-.address a img {
+.contatto a img {
     max-width: 100%;   
 }
