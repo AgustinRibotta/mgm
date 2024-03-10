@@ -1,6 +1,14 @@
 :root{
-
+    --header: #43507C;
+    --footer: #070F2B;
+    --body: linear-gradient(to top, #070F2B, #94a5b3);
+    --section-services: #43507C; 
+    --section-clients: #43507C;
+    --section-chisiamo: #43507C;
+    --section-contact: #43507C;
 }
+
+/* linear-gradient(to bottom, #447294, #94a5b3); */
 
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
@@ -51,7 +59,7 @@ li {
 }
 
 body{
-    background: linear-gradient(to bottom, #447294, #94a5b3);
+    background: var(--body);
 } 
 
 /* Fin Body  */
@@ -62,7 +70,7 @@ header {
     height: 80px;
     display: flex;
     align-items: center;
-    background: #000;
+    background: var(--header);
 }
 
 header a img:hover {
@@ -86,13 +94,13 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background-color: #447294;
+    background-color: #94a5b3;
     padding: 0.5em;
     border-radius: 3px;
 }
 
 header nav ul li a:visited {
-    background-color: #447294;
+    background-color: #94a5b3;
 }
 
 
@@ -120,7 +128,7 @@ header ul li a img:hover {
 /* Service  */
 .services {
     margin-top: 40px;
-    background-color: #43507C;
+    background-color: var(--section-services);
     display: flex;
     align-items: center;
 }
@@ -162,6 +170,10 @@ vertical-align: middle;
 /* Fin Service  */
 
 /* Section Clients */
+.clients{
+    background-color: var(--section-clients);
+}
+
 .clients div {
     display: flex;
     justify-content: center;
@@ -186,7 +198,7 @@ vertical-align: middle;
 
 /* Wh0 are we  */
 .chisiamo  {
-    background-color: #43507C;
+    background-color: var(--section-chisiamo);
     display: flex;
     align-items: center;
     padding: 20px 0 30px 0 ;
@@ -226,7 +238,7 @@ vertical-align: middle;
     align-items: center;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); 
     transition: box-shadow 0.3s ease;
-    background-color: #43507C;
+    background-color: var(--section-contact);
 }
 
 .logo a img{
@@ -279,7 +291,7 @@ vertical-align: middle;
 
 /* Footer */
 footer {
-    background-color: black;
+    background-color: var(--footer);
     color: white;
     text-align: center;
     align-items: center;
