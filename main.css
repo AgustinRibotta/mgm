@@ -1,11 +1,13 @@
 :root{
-    --header: #43507C;
-    --footer: #070F2B;
-    --body: linear-gradient(to top, #070F2B, #94a5b3);
-    --section-services: #43507C; 
-    --section-clients: #43507C;
-    --section-chisiamo: #43507C;
-    --section-contact: #43507C;
+    --primary-color-lightest: #C2DEDC; 
+    --primary-color-light: #ECE5C7; 
+    --primary-color: #CDC2AE; 
+    --primary-color-dark: #116A7B; 
+    --primary-color-darkets: #222831; 
+    --p-color: #31363F ;
+    --h-color: #222831 ;
+    --a-color: #31363F ;
+    --li-color: #31363F; 
 }
 
 /* linear-gradient(to bottom, #447294, #94a5b3); */
@@ -22,21 +24,25 @@ p {
     font-family: "Roboto", sans-serif;
     font-weight: 400; 
     font-style: normal; 
+    color: var(--p-color);
 }
 
 h2 {
     font-size: 36px;
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 2px;
+    color: var(--h-color);
 }
 
 a {
     font-size: 24px;
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 2px;
+    color: var(--a-color);
 }
 
 li {
+    color: var(--li-color);
     font-size: 24px;
     font-family: "Roboto", sans-serif;
     font-weight: 400; 
@@ -46,7 +52,7 @@ li {
 
 .shadow {
     box-shadow: 0px 3px 3px rgb(56, 56, 56);
-    }
+}
     
 
 /*  Body  */
@@ -59,7 +65,7 @@ li {
 }
 
 body{
-    background: var(--body);
+ background-color: var(--primary-color-light);
 } 
 
 /* Fin Body  */
@@ -67,10 +73,10 @@ body{
 /* Header  */
 
 header {
+    background-color: var(--primary-color-darkets);
     height: 80px;
     display: flex;
     align-items: center;
-    background: var(--header);
 }
 
 header a img:hover {
@@ -86,21 +92,22 @@ header nav ul li {
     list-style: none;
     display: inline;
     margin: 0 25px;
+    
 }
 
 header nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: var(--primary-color);
 }
 
 header nav ul li a:hover {
-    background-color: #94a5b3;
     padding: 0.5em;
     border-radius: 3px;
+    background-color: var(--primary-color-dark);
 }
 
 header nav ul li a:visited {
-    background-color: #94a5b3;
+    background-color: var(--primary-color-dark);
 }
 
 
@@ -128,7 +135,6 @@ header ul li a img:hover {
 /* Service  */
 .services {
     margin-top: 40px;
-    background-color: var(--section-services);
     display: flex;
     align-items: center;
 }
@@ -136,6 +142,8 @@ header ul li a img:hover {
 .service {
     flex: 1;
     padding-bottom: 120px;
+    margin-left: 20px;
+    background-color: var(--primary-color);
 }
 
 .service h2 {
@@ -156,7 +164,7 @@ header ul li a img:hover {
 }
 
 .service li img{
-vertical-align: middle;
+    vertical-align: middle;
 }
 
 .carrousel {
@@ -171,7 +179,6 @@ vertical-align: middle;
 
 /* Section Clients */
 .clients{
-    background-color: var(--section-clients);
 }
 
 .clients div {
@@ -198,7 +205,6 @@ vertical-align: middle;
 
 /* Wh0 are we  */
 .chisiamo  {
-    background-color: var(--section-chisiamo);
     display: flex;
     align-items: center;
     padding: 20px 0 30px 0 ;
@@ -215,13 +221,13 @@ vertical-align: middle;
 
 .chisiamoDiv2 {
     flex: 1 ;
+    background-color: var(--primary-color);
 }
 
 .chisiamoDiv2 h2{
     text-align: center;
-    
-
 }
+
 .chisiamoDiv2 p {
     padding-top: 50px;
     text-align: center;
@@ -236,9 +242,7 @@ vertical-align: middle;
     margin-bottom: 40px;
     display: flex;
     align-items: center;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); 
-    transition: box-shadow 0.3s ease;
-    background-color: var(--section-contact);
+    background-color: var(--primary-color);
 }
 
 .logo a img{
@@ -268,7 +272,7 @@ vertical-align: middle;
     align-items: center;
     text-align: left;
     text-decoration: none;
-    color: #000;   
+    color: var(--primary-color-darkst);
 }
 
 .contact .contatto ul li a img{
@@ -292,11 +296,11 @@ vertical-align: middle;
 /* Footer */
 footer {
     background-color: var(--footer);
-    color: white;
     text-align: center;
     align-items: center;
     margin: 0px;
     padding-top: 10px;
+    background-color: var(--primary-color-darkets);
 }
 
 footer a img {
@@ -307,5 +311,6 @@ footer a img {
 footer p {
     margin: 30px 0px 0px 0px;
     padding: 5px;
+    color: var(--primary-color);
 }
 /* Fin  Footer */
