@@ -1,6 +1,16 @@
 :root{
-
+    --primary-color-lightest: #C2DEDC; 
+    --primary-color-light: #ECE5C7; 
+    --primary-color: #CDC2AE; 
+    --primary-color-dark: #116A7B; 
+    --primary-color-darkets: #222831; 
+    --p-color: #31363F ;
+    --h-color: #222831 ;
+    --a-color: #31363F ;
+    --li-color: #31363F; 
 }
+
+/* linear-gradient(to bottom, #447294, #94a5b3); */
 
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
@@ -14,21 +24,25 @@ p {
     font-family: "Roboto", sans-serif;
     font-weight: 400; 
     font-style: normal; 
+    color: var(--p-color);
 }
 
 h2 {
     font-size: 36px;
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 2px;
+    color: var(--h-color);
 }
 
 a {
     font-size: 24px;
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 2px;
+    color: var(--a-color);
 }
 
 li {
+    color: var(--li-color);
     font-size: 24px;
     font-family: "Roboto", sans-serif;
     font-weight: 400; 
@@ -38,7 +52,7 @@ li {
 
 .shadow {
     box-shadow: 0px 3px 3px rgb(56, 56, 56);
-    }
+}
     
 
 /*  Body  */
@@ -51,7 +65,7 @@ li {
 }
 
 body{
-    background: linear-gradient(to bottom, #447294, #94a5b3);
+ background-color: var(--primary-color-light);
 } 
 
 /* Fin Body  */
@@ -59,10 +73,10 @@ body{
 /* Header  */
 
 header {
+    background-color: var(--primary-color-darkets);
     height: 80px;
     display: flex;
     align-items: center;
-    background: #000;
 }
 
 header a img:hover {
@@ -78,21 +92,22 @@ header nav ul li {
     list-style: none;
     display: inline;
     margin: 0 25px;
+    
 }
 
 header nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: var(--primary-color);
 }
 
 header nav ul li a:hover {
-    background-color: #447294;
     padding: 0.5em;
     border-radius: 3px;
+    background-color: var(--primary-color-dark);
 }
 
 header nav ul li a:visited {
-    background-color: #447294;
+    background-color: var(--primary-color-dark);
 }
 
 
@@ -120,14 +135,15 @@ header ul li a img:hover {
 /* Service  */
 .services {
     margin-top: 40px;
-    background-color: #43507C;
     display: flex;
     align-items: center;
 }
 
 .service {
     flex: 1;
-    padding-bottom: 10px;
+    padding-bottom: 120px;
+    margin-left: 20px;
+    background-color: var(--primary-color);
 }
 
 .service h2 {
@@ -150,7 +166,6 @@ header ul li a img:hover {
 
 .service li img{
 vertical-align: middle;
-
 }
 
 .carSel {
@@ -164,6 +179,9 @@ vertical-align: middle;
 /* Fin Service  */
 
 /* Section Clients */
+.clients{
+}
+
 .clients div {
     display: flex;
     justify-content: center;
@@ -193,7 +211,6 @@ vertical-align: middle;
 
 /* Wh0 are we  */
 .chisiamo  {
-    background-color: #43507C;
     display: flex;
     align-items: center;
     padding: 30px 0 30px 0 ;
@@ -210,6 +227,7 @@ vertical-align: middle;
 
 .chisiamoDiv2 {
     flex: 1 ;
+    background-color: var(--primary-color);
 }
 
 .chisiamoDiv2 h2{
@@ -217,6 +235,7 @@ vertical-align: middle;
     padding-right: 50px;
 
 }
+
 .chisiamoDiv2 p {
     padding-top: 30px;
     text-align: justify;
@@ -233,9 +252,7 @@ vertical-align: middle;
     margin-bottom: 40px;
     display: flex;
     align-items: center;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); 
-    transition: box-shadow 0.3s ease;
-    background-color: #43507C;
+    background-color: var(--primary-color);
 }
 
 .logo a img{
@@ -265,7 +282,7 @@ vertical-align: middle;
     align-items: center;
     text-align: left;
     text-decoration: none;
-    color: #000;   
+    color: var(--primary-color-darkst);
 }
 
 .contact .contatto ul li a img{
@@ -294,12 +311,12 @@ vertical-align: middle;
 
 /* Footer */
 footer {
-    background-color: black;
-    color: white;
+    background-color: var(--footer);
     text-align: center;
     align-items: center;
     margin: 0px;
     padding-top: 10px;
+    background-color: var(--primary-color-darkets);
 }
 
 footer a img {
@@ -309,5 +326,6 @@ width: 30px;}
 footer p {
     margin: 10px 0px 0px 0px;
     padding: 5px;
+    color: var(--primary-color);
 }
 /* Fin  Footer */
