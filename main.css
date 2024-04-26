@@ -1,330 +1,83 @@
-:root{
-    --primary-color-lightest: #C2DEDC; 
-    --primary-color-light: #ECE5C7; 
-    --primary-color: #CDC2AE; 
-    --primary-color-dark: #116A7B; 
-    --primary-color-darkets: #222831; 
-    --p-color: #31363F ;
-    --h-color: #222831 ;
-    --a-color: #31363F ;
-    --li-color: #31363F; 
-}
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
 
-/* linear-gradient(to bottom, #447294, #94a5b3); */
-
-.bebas-neue-regular {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: rgb(var(--bs-tertiary-color-rgb));
+  }
   
-/* Font */
-p {
-    font-size: 20px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400; 
-    font-style: normal; 
-    color: var(--p-color);
-}
-
-h2 {
-    font-size: 36px;
-    font-family: "Bebas Neue", sans-serif;
-    letter-spacing: 2px;
-    color: var(--h-color);
-}
-
-a {
-    font-size: 24px;
-    font-family: "Bebas Neue", sans-serif;
-    letter-spacing: 2px;
-    color: var(--a-color);
-}
-
-li {
-    color: var(--li-color);
-    font-size: 24px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400; 
-    font-style: normal; 
-}
-/* Fin Font */
-
-.shadow {
-    box-shadow: 0px 3px 3px rgb(56, 56, 56);
-}
-    
-
-/*  Body  */
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body{
-    background: var(--primary-color-light);
-} 
-
-/* Fin Body  */
-
-/* Header  */
-
-header {
-    background-color: var(--primary-color-darkets);
-    height: 80px;
-    display: flex;
-    align-items: center;
-}
-
-header a img:hover {
-    transform: scale(1.1);
-}
-
-header nav {
+  
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+  
+  /* Carousel base class */
+  .carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+  }
+  
+  
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
     text-align: center;
-    flex: 1;
-}
-
-header nav ul li {
-    list-style: none;
-    display: inline;
-    margin: 0 25px;
-    
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color: var(--primary-color);
-}
-
-header nav ul li a:hover {
-    padding: 0.5em;
-    border-radius: 3px;
-    background-color: var(--primary-color-dark);
-}
-
-header nav ul li a:visited {
-    background-color: var(--primary-color-dark);
-}
-
-
-header ul {
-    margin-right:  10px;
-}
-
-header ul li {
-    list-style: none;
-    display: inline;
-    margin: 0 10px;
-    
-}
-
-header ul li a img {
-    width: 30px;
-    margin-left: 0px;
-}
-
-header ul li a img:hover {
-    transform: scale(1.1);
-}
-/* Fin Header  */
-
-/* Service  */
-.services {
-    margin-top: 40px;
-    display: flex;
-    align-items: center;
-}
-
-.service {
-    flex: 1;
-    padding-bottom: 120px;
-    margin-left: 20px;
-    background-color: var(--primary-color);
-}
-
-.service h2 {
-    text-align: center;
-    padding-left: 150px;
-}
-
-.service ul {
-    text-align: center; 
-    padding-left: 150px;  
-}
-
-.service li{
-    display: inline-block;
-    width: 70%;
-    padding-top: 40px;
-    border-bottom: solid 1px #94a5b3;
-
-}
-
-.service li img{
-vertical-align: middle;
-}
-
-.carSel {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-}
-
-.carSel img {
-}
-/* Fin Service  */
-
-/* Section Clients */
-.clients{
-}
-
-.clients div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2em 0;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); 
-    transition: box-shadow 0.3s ease; 
-}
-
-.clients div img {
-    filter: drop-shadow(10px 10px 2px #10101044);
-    width: 200px;
-    height: auto;
-    margin: auto;
-    padding:1.5em; 
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
-
-
-}
-
-.clients div img:hover {
-    transform: scale(1.5);
-    filter: drop-shadow(10px 10px 5px #10101044);
-
-}
-/* Fin Section Clients */
-
-/* Wh0 are we  */
-.chisiamo  {
-    display: flex;
-    align-items: center;
-    padding: 30px 0 30px 0 ;
-}
-
-.chisiamoDiv1 {
-    flex: 1;
-    padding-left: 20px;
-}
-
-.chisiamoDiv1 img{
-    width: 80%;
-}
-
-.chisiamoDiv2 {
-    flex: 1 ;
-    background-color: var(--primary-color);
-}
-
-.chisiamoDiv2 h2{
-    text-align: center;
-    padding-right: 50px;
-
-}
-
-.chisiamoDiv2 p {
-    padding-top: 30px;
-    text-align: justify;
-    width: 370px;
-    display: inline-block;
-    
-}
-
-/*  Fin wh0 are we  */
-
-/* Section contact */
-.contact {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    display: flex;
-    align-items: center;
-    background-color: var(--primary-color);
-}
-
-.logo a img{
-    width: 100%;
-}
-
-.contact .contatto ul {
-    flex: 1;
-}
-
-.contact .contatto h2 {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.contact .contatto ul li {
-    display: inline-block;
-    width: 45%;
-    box-sizing: border-box;
-    list-style: none;
-    margin-bottom: 15px;
-    margin-left: 10px;
-}
-
-.contact .contatto ul li a {
-    display: flex;
-    align-items: center;
-    text-align: left;
-    text-decoration: none;
-    color: var(--primary-color-darkst);
-}
-
-.contact .contatto ul li a img{
-    width: 75px;
-    padding-right: 10px;
-}
-
-.contatto a img {
-    max-width: 100%;   
-
-}
-
-.contact a {
-    outline: none;
-    text-decoration: none;
-    font-size: 16px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400; 
-    font-style: normal;
-}
-
-.address {
-/* width: 200; */
-}
-/* Fin  Section contact */
-
-/* Footer */
-footer {
-    background-color: var(--footer);
-    text-align: center;
-    align-items: center;
-    margin: 0px;
-    padding-top: 10px;
-    background-color: var(--primary-color-darkets);
-}
-
-footer a img {
-margin: 0px 40px;
-width: 30px;}
-
-footer p {
-    margin: 10px 0px 0px 0px;
-    padding: 5px;
-    color: var(--primary-color);
-}
-/* Fin  Footer */
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  /* rtl:end:ignore */
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  /* rtl:begin:remove */
+  .featurette-heading {
+    letter-spacing: -.05rem;
+  }
+  
+  /* rtl:end:remove */
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+  
