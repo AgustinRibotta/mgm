@@ -12,6 +12,10 @@ body {
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
+p{
+  letter-spacing: 1px;
+}
+
 /* Carousel base class */
 .carousel {
   margin-bottom: 2rem;
@@ -20,7 +24,20 @@ body {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   bottom: 3rem;
+  left: 18%;
   z-index: 10;
+  padding-left: 10px;
+  padding-bottom: 0px;
+  background-color: rgba(255, 255, 255, 0.230) ;
+
+  border-radius: 3px;
+  width: auto;
+}
+
+
+.carousel-caption p{
+  color: black;
+
 }
 
 /* Declare heights because of positioning of img element */
@@ -82,16 +99,21 @@ body {
     .featurette-heading {
       font-size: 50px;
     }
+  
   }
   
   @media (min-width: 62em) {
     .featurette-heading {
       margin-top: 7rem;
     }
+    .carousel-caption{
+      width: 700px;
+    }
   }
   
 
   /* carrusel inifinot de marcas */
+  
   .cuerpo {
     align-items: center;
     background: #ffff;
