@@ -85,6 +85,10 @@ p{
 .text-black{
   text-decoration: none;
 } 
+
+.semiDivider {
+margin-top:5rem;
+}
   /* RESPONSIVE CSS
   -------------------------------------------------- */
   
@@ -112,7 +116,7 @@ p{
   }
   
 
-  /* carrusel inifinot de marcas */
+  /* carrusel infinito de marcas */
   
   .cuerpo {
     align-items: center;
@@ -127,8 +131,8 @@ p{
               transform: translateX(0);
     }
     100% {
-      -webkit-transform: translateX(calc(-250px * 7));
-              transform: translateX(calc(-250px * 7));
+      -webkit-transform: translateX(calc(-33.58%));
+              transform: translateX(calc(-33.58%));
     }
   }
   
@@ -138,25 +142,25 @@ p{
               transform: translateX(0);
     }
     100% {
-      -webkit-transform: translateX(calc(-250px * 7));
-              transform: translateX(calc(-250px * 7));
+      -webkit-transform: translateX(calc(-33.40%));
+              transform: translateX(calc(-33.40%));
     }
   }
   .slider {
-    background: rgb(254, 254, 254);
+    background: rgb(255, 255, 255);
     /*box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);*/
     height: 100px;
     margin: auto;
     overflow: hidden;
     position: relative;
-    width: 95%;
+    width: 100%;
   }
   .slider::before, .slider::after {
-    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgb(80, 80, 80) 0%, rgba(239, 239, 239, 0.833) 100%);
     content: "";
     height: 100px;
     position: absolute;
-    width: 290px;
+    width: 0px;
     z-index: 2;
   }
   .slider::after {
@@ -170,17 +174,20 @@ p{
     top: 0;
   }
   .slider .slide-track {
-    -webkit-animation: scroll 50s linear infinite;
-            animation: scroll 50s linear infinite;
+    -webkit-animation: scroll 30s linear infinite;
+            animation: scroll 30s linear infinite;
     display: flex;
     width: calc(250px * 14);
   }
   .slider .slide {
     height: 50px;
-    width: 250px;
+    width: 2000px;
   }
   
   .slide img{
   
   }
+  /* .backgroundFooter{
+    background-color: rgb(33, 37, 41);
+  } */
   
