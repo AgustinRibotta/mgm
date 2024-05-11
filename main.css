@@ -4,7 +4,7 @@
 
 body {
     padding-top: 3rem;
-    padding-bottom: 3rem;
+
     color: rgb(var(--bs-tertiary-color-rgb));
   }
   
@@ -24,11 +24,11 @@ p{
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   bottom: 3rem;
-  left: 18%;
+  left: 27%;
   z-index: 10;
   padding-left: 10px;
   padding-bottom: 0px;
-  background-color: rgba(255, 255, 255, 0.230) ;
+  background-color: rgb(33, 37, 41, 0.60) ;
 
   border-radius: 3px;
   width: auto;
@@ -36,7 +36,7 @@ p{
 
 
 .carousel-caption p{
-  color: black;
+  color: rgb(197, 196, 196);
 
 }
 
@@ -66,7 +66,7 @@ p{
 ------------------------- */
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 4rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -187,7 +187,19 @@ margin-top:5rem;
   .slide img{
   
   }
-  /* .backgroundFooter{
-    background-color: rgb(33, 37, 41);
-  } */
+
+
+  /* Footer  */
   
+  .FooterStyle{
+    background-color: rgb(33, 37, 41);
+    p{
+      color: rgb(207, 204, 204);
+    }
+  }
+  .marg{
+    margin-bottom: 0;
+  }
+  footer svg {
+    margin-bottom: 15px;
+  }
