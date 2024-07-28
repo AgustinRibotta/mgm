@@ -4,13 +4,6 @@
 
 Este proyecto es una página de presentación desarrollada para **MGM**, una destacada empresa con sede en Italia. Utiliza HTML, CSS, JavaScript y el framework Bootstrap para ofrecer una presentación profesional y moderna de la empresa.
 
-## Tecnologías Utilizadas
-
-- **HTML**: Estructura del contenido.
-- **CSS**: Estilos y diseño de la página.
-- **JavaScript**: Interactividad y funcionalidades adicionales.
-- **Bootstrap**: Framework CSS para un diseño responsivo y componentes predefinidos.
-
 ## Características
 
 - **Diseño Responsivo**: Adaptación a diferentes tamaños de pantalla para una visualización óptima en dispositivos móviles y de escritorio.
@@ -43,6 +36,14 @@ Puedes ver la página de presentación en el siguiente enlace:
 - **Fabricio Zandonadi** - [GitHub: Chazzero](https://github.com/Chazzero)
 - **Agustín Ribotta** - [GitHub: AgustinRibotta](https://github.com/AgustinRibotta)
 
+## Tecnologías Utilizadas
+
+- **HTML**: Estructura del contenido.
+- **CSS**: Estilos y diseño de la página.
+- **JavaScript**: Interactividad y funcionalidades adicionales.
+- **Bootstrap**: Framework CSS para un diseño responsivo y componentes predefinidos.
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,bootstrap,js)](https://skillicons.dev)  
 ---
 
 ### Notas
